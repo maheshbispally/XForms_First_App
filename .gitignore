@@ -1,0 +1,14 @@
+
+firstxf/firstxf/firstxf.Android/bin/Debug/com.companyname.firstxf-Signed.apk
+*.apk
+firstxf/firstxf/firstxf.Android/bin/Debug/firstxf.Android.dll
+*.pdb
+firstxf/firstxf/firstxf.Android/bin/Debug/firstxf.dll
+*.flag
+firstxf/firstxf/firstxf.Android/obj/Debug/110/firstxf.Android.csproj.FileListAbsolute.txt
+firstxf/firstxf/firstxf.Android/obj/Debug/90/__environment__.txt
+firstxf/firstxf/firstxf.Android/obj/Debug/110/firstxf.Android.csprojAssemblyReference.cache
+/firstxf/firstxf/firstxf/bin/Debug
+/firstxf/firstxf/firstxf/obj
+/firstxf/firstxf/firstxf.Android/obj
+/firstxf/firstxf/firstxf.iOS/obj

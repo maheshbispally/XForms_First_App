@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="firstxf.registration">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" >
+ 
+            <Label Text="Registration" FontSize="30" TextColor="Blue" FontAttributes="Bold" HorizontalTextAlignment="Center"  HorizontalOptions="Center" LineHeight="10"
+                Margin="10,20,5,20" />
+
+            <StackLayout  Orientation="Horizontal" Spacing="10"  HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="10">
+                <Label  Text="Name:"  FontAttributes="Bold" FontSize="20" VerticalTextAlignment="Center"/>
+                <Entry  IsPassword="False" HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" MaxLength="10" ></Entry>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" Spacing="30"  Padding="10"  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+
+                <Label  Text="Age:" FontSize="20" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                <Entry   IsPassword="False" Keyboard="Numeric" MaxLength="2" HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="10"  Padding="10"  >
+                <Label Text="Phone:" FontAttributes="Bold" FontSize="20" VerticalTextAlignment="Center"  />
+                <Entry IsPassword="False" Keyboard="Numeric" MaxLength="14" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="10" >
+                <Label Text="User :" FontSize="20" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                <Entry IsPassword="False" HorizontalOptions="FillAndExpand" MaxLength="40" Keyboard="Email"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="10" >
+                <Label Text="Password:" FontSize="20" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                <Entry IsPassword="True" MaxLength="20" Keyboard="Text" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Label Text="Conf Pass:" FontSize="20" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                <Entry IsPassword="True" MaxLength="20" Keyboard="Text" HorizontalOptions="FillAndExpand"/>
+
+            </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="70" Padding="10" >
+                
+                <Button Text="Cancel" Clicked="btn_cancel" />
+                <Button Text="Submit"/>
+                
+                
+            </StackLayout>
+
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

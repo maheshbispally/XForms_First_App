@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="firstxf.basic_login_view">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="img_homepage_logo" VerticalOptions="CenterAndExpand" Aspect="Fill" HorizontalOptions="CenterAndExpand" HeightRequest="200" WidthRequest="200" > </Image>
+            <StackLayout Orientation="Horizontal" >
+                <Label Text="USER NAME" />
+                <Entry IsPassword="False"/>
+            </StackLayout>
+            <Label Text="PASSWORD" HeightRequest="50"/>
+            <Entry IsPassword="True"/>
+
+            <StackLayout Orientation="Horizontal" >
+                <Button Text="Signup" HorizontalOptions="FillAndExpand" Clicked="btn_click"></Button>
+                <Button Text="LOGIN" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="forgot password" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+
+       
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
