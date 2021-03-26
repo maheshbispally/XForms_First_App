@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace firstxf
+namespace firstxf.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class basic_login_view : ContentPage
+    public partial class LoginView : ContentPage
     {
-        public basic_login_view()
+        public LoginView()
         {
             InitializeComponent();
             img_homepage_logo.Source = ImageSource.FromResource("firstxf.Resource.testimg.jpg");
@@ -20,7 +20,7 @@ namespace firstxf
 
         private async void btn_click(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new registration());
+            await Navigation.PushAsync(new RegistrationView());
         }
     }
 }

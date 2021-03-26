@@ -1,4 +1,5 @@
-﻿using System;
+﻿using firstxf.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,7 +13,7 @@ namespace firstxf
 
              //MainPage = new basic_login_view();
             ///MainPage = new registration();
-            MainPage = new NavigationPage(new basic_login_view());
+            MainPage = new NavigationPage(new LoginView());
 
 
         }

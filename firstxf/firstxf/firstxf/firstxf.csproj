@@ -24,10 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="basic_login_view.xaml">
+    <EmbeddedResource Update="Views\LoginView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="registration.xaml">
+    <EmbeddedResource Update="Views\RegistrationView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
