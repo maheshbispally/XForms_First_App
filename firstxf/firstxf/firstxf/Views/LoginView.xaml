@@ -12,6 +12,7 @@
             <Label Text="PASSWORD" HeightRequest="50"/>
             <Entry IsPassword="True"/>
 
+            <Label x:Uid="SumValue"  HorizontalOptions="FillAndExpand"></Label>
             <StackLayout Orientation="Horizontal" >
                 <Button Text="Signup" HorizontalOptions="FillAndExpand" Clicked="btn_click"></Button>
                 <Button Text="LOGIN" HorizontalOptions="FillAndExpand"></Button>

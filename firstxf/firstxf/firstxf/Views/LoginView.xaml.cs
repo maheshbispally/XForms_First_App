@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using firstxf.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,6 +20,26 @@ namespace firstxf.Views
 
         private async void btn_click(object sender, EventArgs e)
         {
+
+
+
+            RoundCookies brownCookies = new RoundCookies()
+            {
+                weight = 16,
+                colour = "green",
+                icing = false
+            };
+
+
+            //brownCookies.weight = 16;
+            //brownCookies.colour = "Brown";
+            //brownCookies.icing = false;
+
+
+
+
+            //S
+
             await Navigation.PushAsync(new RegistrationView());
         }
     }
